@@ -22,3 +22,9 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
+
+      <!-- <td><%= link_to 'Show', article_path(article.id) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article.id) %></td>
+      <td><%= link_to 'Delete', article_path(article.id), method: :delete, data: { confirm: "Are you sure?" } %></td>
+
+  <%= link_to 'Create new article', new_article_path %> -->
