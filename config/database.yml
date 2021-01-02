@@ -85,5 +85,5 @@ test:
 production:
   <<: *default
   database: alpha_blog_production
-  username: test_blog
+  username: postgres
   password: <%= ENV['TEST_BLOG_DATABASE_PASSWORD'] %>
